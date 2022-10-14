@@ -11,7 +11,7 @@ for num in range(4):
     my_list.append(x)
     print(my_list)
 
-N = int(input('Число пользователя:'))
+    N = int(input('Число пользователя:'))
     if N == x:
-        print()
-
+        print(N)
+print()
