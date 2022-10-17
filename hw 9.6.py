@@ -5,6 +5,7 @@
 # Вывести эти числа.
 
 
+
 A = []
 N = int(input('Число пользователя N:' ))
 
@@ -12,7 +13,6 @@ N = int(input('Число пользователя N:' ))
 for num in range(N):
     x = int(input('Введите число: '))
     A.append(x)
-
 sorted(A)
 
 print('Список А =', A)
