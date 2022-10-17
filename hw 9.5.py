@@ -2,16 +2,20 @@
 #Запросить у пользователя 5 чисел и записать их в список A
 #Записать все числа из списка A которые больше 5 в список C
 
-NO
+#NO
 
 
-#N = int(input('Число пользователя N:' ))
+
 A = []
-#C = []
-for num in range(5):
-    x = int(input('Введите число: '))
-    A.append(x)
-    if x >= 5:
-        print('C =' )
 
-print('A =',A )
+for num in range(5):
+    x = int(input(f'Введите число {num + 1}: '))
+    A.append(x)
+print('Список А ', A)
+C = []
+for num_2 in A:
+    if num_2 > 5:
+        C.append(num_2)
+
+print('Список C ',C)
+

@@ -4,9 +4,19 @@
 #Найти в нем минимальное и максимальное число с помощью цикла (запрещено использовать функцию min и max).
 # Вывести эти числа.
 
+
+A = []
 N = int(input('Число пользователя N:' ))
-number = []
+
 
 for num in range(N):
     x = int(input('Введите число: '))
-    number.append(x)
+    A.append(x)
+
+sorted(A)
+
+print('Список А =', A)
+a, *_, b = A
+
+print(f'Min =', a)
+print(f'Max =', b)
