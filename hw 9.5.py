@@ -17,5 +17,5 @@ for num_2 in A:
     if num_2 > 5:
         C.append(num_2)
 
-print('Список C ',C)
+print('Список C ', C)
 

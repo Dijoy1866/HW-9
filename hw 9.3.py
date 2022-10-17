@@ -13,7 +13,10 @@ for num in range(10):
     my_list.append(x)
 
 N = int(input('Число которое повторяется: '))
+
 for num_2 in my_list:
     if num_2 == x:
         rep += 1
+
 print(rep)
+
