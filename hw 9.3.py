@@ -3,16 +3,17 @@
 #Запросить у пользователя число N
 #Вывести пользователю сколько в списке A повторяется число N
 
- NO
+
 
 my_list = []
+rep = 0
 
-for num in range(4):
-    x = int(input('Введите число: '))
+for num in range(10):
+    x = int(input(f'Введите число {num + 1}: '))
     my_list.append(x)
-    print(my_list)
 
-    N = int(input('Число пользователя:'))
-    if N == x:
-        print(N)
-print()
+N = int(input('Число которое повторяется: '))
+for num_2 in my_list:
+    if num_2 == x:
+        rep += 1
+print(rep)
